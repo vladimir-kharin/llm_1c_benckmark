@@ -1,13 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
 	<ConfigVersions>
-		<Metadata name="Catalog.Контрагенты" id="4223d65c-b3ba-4e9b-b3b9-1cae00e4ae86" configVersion="d04dc76bb0e57f4a91d8265ee1b94eca00000000"/>
-		<Metadata name="Catalog.Номенклатура" id="add27516-bd7f-4552-9b72-d72bc2518a23" configVersion="caeb129cf4456341a169ecca6d14d2fc00000000"/>
-		<Metadata name="Catalog.Организации" id="2afddef4-5243-4384-8129-97d92ac30b4d" configVersion="7b4302fcd48e5f40a3da248f4398a4bb00000000"/>
-		<Metadata name="Configuration.Конфигурация" id="a906baa1-80cf-41df-a9cd-462e3e979afc" configVersion="f7ffbbfcb0eb554faf5a6890d21bfc4a00000000"/>
-		<Metadata name="Document.Поступление" id="6a69e6fd-bf8c-42b7-be30-4058ae53b926" configVersion="ac65e822b4814a40acc1a03d352409a800000000">
+		<Metadata name="Catalog.Валюты" id="43353c71-ea2a-44d3-9311-89457b55eb6b" configVersion="c6715503b4a0944198f6d2e65be0b32900000000"/>
+		<Metadata name="Catalog.Контрагенты" id="4223d65c-b3ba-4e9b-b3b9-1cae00e4ae86" configVersion="0d0e38c926cc124eb179cf859f7b7ec100000000"/>
+		<Metadata name="Catalog.Номенклатура" id="add27516-bd7f-4552-9b72-d72bc2518a23" configVersion="9706649adedde442b1be81ea008164e000000000"/>
+		<Metadata name="Catalog.Организации" id="2afddef4-5243-4384-8129-97d92ac30b4d" configVersion="46357ace6277444a8ca13ca69615390b00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="a906baa1-80cf-41df-a9cd-462e3e979afc" configVersion="1a0868469ee2d647a3d50955e5ce722b00000000"/>
+		<Metadata name="Document.Поступление" id="6a69e6fd-bf8c-42b7-be30-4058ae53b926" configVersion="1714aca1a1c03e48b4fd77a45286b12b00000000">
 			<Metadata name="Document.Поступление.TabularSection.Товары.Attribute.Номенклатура" id="07af3cbc-3781-42ea-a3a5-e5bff457e096"/>
 			<Metadata name="Document.Поступление.TabularSection.Товары.Attribute.Количество" id="0adf79e0-b4af-41c8-8991-aacac60e206b"/>
+			<Metadata name="Document.Поступление.Attribute.Валюта" id="2ebfe05b-d08e-4f1f-9d93-1e82559b76e5"/>
 			<Metadata name="Document.Поступление.TabularSection.Товары.Attribute.Цена" id="464185b3-29bd-4774-bae9-47e6a8654db3"/>
 			<Metadata name="Document.Поступление.TabularSection.Товары.Attribute.Сумма" id="504b6053-8f7a-40ad-86a5-41ac1a875da2"/>
 			<Metadata name="Document.Поступление.TabularSection.Товары.Attribute.СуммаВсего" id="70d970c0-df7d-405b-920e-6ee775a9ccc3"/>
@@ -16,8 +18,15 @@
 			<Metadata name="Document.Поступление.TabularSection.Товары" id="98a9fad8-ec1f-4cde-941b-fc84efddd9a0"/>
 			<Metadata name="Document.Поступление.TabularSection.Товары.Attribute.СуммаДопРасходы" id="b3e06fd2-71ef-4e78-a8b8-0229e9af4c4f"/>
 		</Metadata>
-		<Metadata name="Document.Поступление.Form.ФормаДокумента" id="da8aa871-ac0f-40b9-8fd0-67067a7067a6" configVersion="e26111558850b147b60201b1b3c57be100000000"/>
-		<Metadata name="Document.Поступление.Form.ФормаДокумента.Form" id="da8aa871-ac0f-40b9-8fd0-67067a7067a6.0" configVersion="7da080ab57780741a2ba3da5fc63522e00000000"/>
+		<Metadata name="Document.Поступление.Form.ФормаДокумента" id="da8aa871-ac0f-40b9-8fd0-67067a7067a6" configVersion="94fe75729831c24f878c3ec48b740b8100000000"/>
+		<Metadata name="Document.Поступление.Form.ФормаДокумента.Form" id="da8aa871-ac0f-40b9-8fd0-67067a7067a6.0" configVersion="31c4b8c438ba2042b99b1b0922cae2d400000000"/>
+		<Metadata name="Document.Поступление.Form.ФормаСписка" id="71ac5f6c-0d2e-492a-83a7-d2d0a54cee45" configVersion="eef2953394aedf4f82f1d5404d41580700000000"/>
+		<Metadata name="Document.Поступление.Form.ФормаСписка.Form" id="71ac5f6c-0d2e-492a-83a7-d2d0a54cee45.0" configVersion="3fc1e56863d5d44c9e8f73492fdce82400000000"/>
+		<Metadata name="InformationRegister.КурсыВалют" id="0b594b56-189a-4520-a9ea-a745a3d3700a" configVersion="a597c2e1cf8dfb489cfff72166deb9a200000000">
+			<Metadata name="InformationRegister.КурсыВалют.Dimension.Валюта" id="85bafd3e-715a-4074-b4a8-537610d72d00"/>
+			<Metadata name="InformationRegister.КурсыВалют.Resource.Курс" id="d002bea6-89be-4145-9b49-faf888bb4f42"/>
+			<Metadata name="InformationRegister.КурсыВалют.Resource.Кратность" id="d02494b7-9644-4abe-b129-884524006c7c"/>
+		</Metadata>
 		<Metadata name="Language.Русский" id="4bd92e49-a28c-4cb3-bbad-9f3d95cc1472" configVersion="62c625ff7ced6c4ea20279a6f2a9ff8400000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

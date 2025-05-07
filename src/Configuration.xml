@@ -244,7 +244,9 @@
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>Организации</Catalog>
 			<Catalog>Контрагенты</Catalog>
+			<Catalog>Валюты</Catalog>
 			<Document>Поступление</Document>
+			<InformationRegister>КурсыВалют</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
