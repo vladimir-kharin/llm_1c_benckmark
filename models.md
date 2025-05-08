@@ -8,4 +8,3 @@
 | 4 | Qwen 3-32B (Dense) | Alibaba (Qwen) | 32.8 B | 32 768 натив / 131 072 (YaRN) | 29 апр 2025 |
 | 5 | GLM-4-32B-0414 | THUDM / Zhipu AI | 32 B | 32 000 (нативно) / ≈ 128 000 c YaRN | 14 апр 2025 |
 | 6 | Gemma-3-27B-IT | Google DeepMind | 27.4 B | 128 000 ток. | 10 мар 2025 (официальный релиз семейства) |
-| 7 | Llama 3.3 Nemotron Super 49B v1 | NVIDIA | 49.9 B | 131 072 ток. | 18 мар 2025 |
