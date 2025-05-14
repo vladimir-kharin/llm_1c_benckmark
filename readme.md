@@ -28,7 +28,7 @@
 *   [`/Prompts.md`](Prompts.md) - файл с описанием тестовых задач и промптами, которые подавались моделям.
 *   [`/results/dev/details.md`](results/dev/details.md) - список задач на разработку и подробная методика их оценки.
 *   [`/results/dev/_summary.md`](results/dev/_summary.md) - сводные результаты тестирования моделей по задачам генерации кода.
-*   [`/results/architect/standalone/_summary.md`](results/architect/_summary.md) - сводные результаты тестирования моделей по архитектурной задаче.
+*   [`/results/architect/standalone/_summary.md`](results/architect/standalone/_summary.md) - сводные результаты тестирования моделей по архитектурной задаче.
 
 ### Ветки-«аватары» моделей
 
