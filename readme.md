@@ -12,6 +12,8 @@
 
 Репозиторий служит в первую очередь для демонстрации результатов, полученных автором. Процесс тестирования не автоматизирован.
 
+[Публикация на](https://infostart.ru/1c/articles/2388727/) ![Инфостарт](https://infostart.ru/bitrix/templates/sandbox_empty/assets/tpl/abo/img/logo.svg)
+
 ## Видео-обзор
 
 *   [VK Видео](https://vk.com/video-219359576_456239023)
